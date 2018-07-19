@@ -34,6 +34,10 @@ type Host struct {
 
 	// Groups contains all Host Groups assigned to the Host.
 	Groups []Hostgroup
+
+	Available         int
+	MaintenanceStatus int
+	Status            int
 }
 
 // HostGetParams represent the parameters for a `host.get` API call.
